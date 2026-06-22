@@ -1,6 +1,6 @@
 //import { PokemonApp } from './pokemon/pokemon-app';
 import './style.css'
-//import usersStore from './users/store/users-store';
+// import usersStore from './users/store/users-store';
 import { UsersApp } from './users/users-app';
 document.querySelector('#app').innerHTML = `
 <main>
@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML = `
 `;
 // PokemonApp( document.querySelector('.information-card'));
 
-//const element = document.querySelector('.information-card');
-const element = document.querySelector('.card');
+const element = document.querySelector('.information-card');
+// const element = document.querySelector('.card');
 
 UsersApp(element);

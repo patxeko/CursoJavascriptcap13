@@ -11,6 +11,6 @@ export const UsersApp = async(element) => {
     await usersStore.loadNextPage();
     //console.log(usersStore.getUsers);
     element.innerHTML = '';
-      //element.style.color = 'white'; // Cambia el color de la fuente a blanco
-    //renderTable(element);
+      element.style.color = 'black'; // Cambia el color de la fuente a blanco
+    renderTable(element);
 }
