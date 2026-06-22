@@ -6,9 +6,14 @@ document.querySelector('#app').innerHTML = `
 <main>
   <h1 id= "app-title">Hola Mundo</h1>
   <section class="information-card"></section>
+   <div class="card">
+      
+    </div>
 </main>
 `;
 // PokemonApp( document.querySelector('.information-card'));
 
-const element = document.querySelector('.information-card');
+//const element = document.querySelector('.information-card');
+const element = document.querySelector('.card');
+
 UsersApp(element);
